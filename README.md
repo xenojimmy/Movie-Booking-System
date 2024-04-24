@@ -2,6 +2,25 @@
 
 The movie booking system allows users to view available movies, select a movie, choose a theater, see available seats, and book seats for a movie.
 
+project_root/
+│
+├── include/
+│   ├── seats.h
+│   ├── movie.h
+│   ├── Theater.h
+│   └── TheaterManager.h
+│
+├── src/
+│   ├── seats.cpp
+│   ├── movie.cpp
+│   ├── Theater.cpp
+│   └── TheaterManager.cpp
+│
+└── example/
+    ├── MainMenu.cpp
+    └── CMakeLists.txt
+
+
 ### Instructions
 
 #### Prerequisites
@@ -13,13 +32,13 @@ The movie booking system allows users to view available movies, select a movie, 
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   gh repo clone xenojimmy/Movie-Booking-System
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd movie_booking_system
+   cd MainMenu
    ```
 
 3. Create a build directory:
@@ -49,7 +68,7 @@ The movie booking system allows users to view available movies, select a movie, 
 7. Run the executable:
 
    ```bash
-   ./movie_booking_system
+   ./MainMenu
    ```
 
 #### Usage
