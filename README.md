@@ -1,66 +1,73 @@
-# Movie-Booking-System
+### Movie Booking System
+
 The movie booking system allows users to view available movies, select a movie, choose a theater, see available seats, and book seats for a movie.
 
+### Instructions
 
-Instructions
-Prerequisites
+#### Prerequisites
+- C++ compiler (e.g., g++, clang++)
+- CMake
 
-    C++ compiler (e.g., g++, clang++)
-    CMake
+#### Steps to Compile and Run
 
-Steps to Compile and Run
+1. Clone the repository:
 
-    Clone the repository:
+   ```bash
+   git clone <repository_url>
+   ```
 
-    bash
+2. Navigate to the project directory:
 
-git clone <repository_url>
+   ```bash
+   cd movie_booking_system
+   ```
 
-Navigate to the project directory:
+3. Create a build directory:
 
-bash
+   ```bash
+   mkdir build
+   ```
 
-cd movie_booking_system
+4. Navigate to the build directory:
 
-Create a build directory:
+   ```bash
+   cd build
+   ```
 
-bash
+5. Run CMake to generate build files:
 
-mkdir build
+   ```bash
+   cmake ..
+   ```
 
-Navigate to the build directory:
+6. Compile the project:
 
-bash
+   ```bash
+   cmake --build .
+   ```
 
-cd build
+7. Run the executable:
 
-Run CMake to generate build files:
+   ```bash
+   ./movie_booking_system
+   ```
 
-bash
-
-cmake ..
-
-Compile the project:
-
-bash
-
-cmake --build .
-
-Run the executable:
-
-bash
-
-    ./movie_booking_system
-
-Usage
+#### Usage
 
 Follow the on-screen instructions to navigate through the movie booking system menu. You can view available movies, select a movie, choose a theater, see available seats, and book seats for a movie.
-Repository Structure
 
-    src/: Contains the source code files.
-    CMakeLists.txt: CMake configuration file for building the project.
-    README.md: Instructions and information about the project.
+### Repository Structure
 
-Dependencies
+- `src/`: Contains the source code files.
+- `CMakeLists.txt`: CMake configuration file for building the project.
+- `README.md`: Instructions and information about the project.
 
-    C++ Standard Library
+### Dependencies
+
+- C++ Standard Library
+
+### License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+Feel free to reach out if you have any questions or need further assistance!
