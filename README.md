@@ -2,6 +2,7 @@
 
 The movie booking system allows users to view available movies, select a movie, choose a theater, see available seats, and book seats for a movie.
 
+   ```bash
 project_root/
 │
 ├── include/
@@ -19,7 +20,7 @@ project_root/
 └── example/
     ├── MainMenu.cpp
     └── CMakeLists.txt
-
+```
 
 ### Instructions
 
@@ -38,7 +39,7 @@ project_root/
 2. Navigate to the project directory:
 
    ```bash
-   cd MainMenu
+   cd Movie-Booking-System
    ```
 
 3. Create a build directory:
